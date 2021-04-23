@@ -1,0 +1,9 @@
+.filter {
+  text-align: center;
+}
+.filter h3 {
+  color: "#3f51bf";
+  font-size: x-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

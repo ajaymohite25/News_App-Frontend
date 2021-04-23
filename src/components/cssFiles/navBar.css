@@ -1,0 +1,80 @@
+.navbar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  height: 60px;
+  background-color: #000000cc;
+
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.navbarContainer {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbartitle {
+  margin-left: 1rem;
+}
+.navbartitle a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbartitle :hover {
+  color: white;
+}
+.navbarmenus {
+  margin-right: 1rem;
+  width: 17%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: lightgray;
+}
+
+.navLink {
+  text-decoration: none;
+  color: lightgray;
+  font-weight: 800;
+  padding: 0 0.4rem;
+  padding-top: 1rem;
+}
+.navLink:hover {
+  color: white;
+}
+.navLink:focus {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #000000cc;
+    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  .navbartitle a {
+    color: lightgray;
+    width: 2%;
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .navLink {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 800;
+    padding: 0 0.4rem;
+    padding-top: 2rem;
+  }
+  .navName {
+    display: none;
+  }
+}

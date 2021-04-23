@@ -1,0 +1,64 @@
+.news {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: space-between;
+}
+
+.searchBarNews {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.newsFilter {
+  border-style: solid;
+  border-width: 0.1px;
+  border-radius: 5px;
+  border-color: lightblue;
+  box-shadow: 5px 5px 15px 7px rgba(0, 0, 0, 0.09);
+  width: 30%;
+  min-width: 30%;
+  height: 40%;
+  padding: 1%;
+}
+.AllnewsParent {
+  right: 0;
+  margin-left: 5%;
+  width: 100%;
+}
+.LoadMoreButton {
+  width: 70%;
+}
+
+.NoSaveTitle {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+  }
+  .newsFilter {
+    border-style: solid;
+    width: 95%;
+    min-width: 30%;
+    height: 40%;
+    margin-bottom: 1rem;
+  }
+  .LoadMoreButton {
+    width: 95%;
+  }
+}

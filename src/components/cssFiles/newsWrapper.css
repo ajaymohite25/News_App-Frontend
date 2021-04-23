@@ -1,0 +1,13 @@
+/* .newswrapper {
+  display: flex;
+  align-items: center;
+} */
+.newswrapperInner Button {
+  width: 70%;
+}
+
+@media (max-width: 700px) {
+  .newswrapperInner Button {
+    width: 100%;
+  }
+}

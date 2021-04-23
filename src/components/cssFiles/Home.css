@@ -1,0 +1,27 @@
+.Home {
+  margin-top: 2rem;
+  width: 95vw;
+  color: #000000cc;
+}
+.HomeNewscontainer {
+  width: 100%;
+  text-align: center;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HomeNewsTitle {
+  font-size: xx-large;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.homeNews {
+  display: flex;
+  margin-top: 1%;
+  /* margin-left: 5%; */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
